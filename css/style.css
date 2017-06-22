@@ -96,3 +96,9 @@ body {
   transform: translate(0px, 30px);
   animation: 2.5s ease-in-out 1.45833s infinite low-jump;
 }
+.btn-container {
+  position: absolute;
+  top: 30px;
+  
+
+}
