@@ -98,7 +98,10 @@ body {
 }
 .btn-container {
   position: absolute;
-  top: 30px;
-  
-
+  top: 0;
+  transform: translateY(-100px);
+}
+.is-loaded .btn-container {
+  transform: translateY(30px) scale(1.3);
+  transition: transform 1s 2s;
 }
